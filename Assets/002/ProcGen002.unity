@@ -344,12 +344,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 360e47a057a3b9448b4b1a8d85788451, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cellPrefab: {fileID: 0}
   seedType: 0
   seed: 0
   animatedPath: 0
   gridCellList: []
   pathLength: 10
-  cellSize: 1
+  cellSize: 1.87
+  cellPrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &2049197739
 Transform:
   m_ObjectHideFlags: 0
